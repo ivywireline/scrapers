@@ -9,7 +9,7 @@ request('http://www.reddit.com', function(err, resp, body){
         $('a.title', '#siteTable').each(function(){
             var url = $(this).attr('href');
             // If the url imgur exists...
-            if(url.indexOf('i.imgur.com') != -1){
+            if(url.indexOf('.png') != -1 || url.indexOf('.jpg') != -1){
                 urls.push(url);        
             }
         });
