@@ -1,0 +1,9 @@
+{
+    "name": "Reddit_Scraper",
+    "version": "1.0.0",
+    "author": "Steven Tan",
+    "dependencies": {
+        "cheerio": "latest",
+        "request": "latest"
+    }
+}
