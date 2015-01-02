@@ -18,4 +18,5 @@ A scraper built to crawl through the front page of reddit and download all image
 Afterwards
 
 * Create an empty folder titled `img`
+* Navigate to the directory that `reddit_scraper.js` is in
 * Execute our main file by `node reddit_scraper.js`
